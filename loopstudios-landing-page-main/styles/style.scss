@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300;400&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+ul {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  li:not-last-child {
+    margin-right: 24px;
+  }
+}
+.hero {
+  height: 650px;
+  background: linear-gradient(0deg rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/desktop/image-hero.jpg) no-repeat center;
+  background-size: cover;
+  height: 650px;
+  color: #fff;
+  padding: 40px 0 80px;
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    padding: 25px 40px;
+    border: 1px solid #fff;
+    width: 60%;
+    font-family: "Josephine Sans", sans-serif;
+    font-weight: 300;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
