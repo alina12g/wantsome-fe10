@@ -1,6 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -19,15 +19,8 @@ ul {
 }
 
 .hero {
-  background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      from(rgba(0, 0, 0, 0.4))
-    ),
-    url("../images/desktop/image-hero.jpg") no-repeat center;
-  background: linear-gradient(0deg rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../images/desktop/image-hero.jpg") no-repeat center;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4))), url("../images/desktop/image-hero.jpg") no-repeat center;
+  background: linear-gradient(0deg rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/desktop/image-hero.jpg") no-repeat center;
   background-size: cover;
   height: 650px;
   color: #fff;
@@ -39,11 +32,11 @@ ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .hero header ul {
@@ -75,11 +68,11 @@ ul {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   height: 100%;
 }
 
@@ -123,11 +116,11 @@ ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 75px;
 }
 
@@ -157,10 +150,10 @@ ul {
 .our-creations .creations {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: (1fr) [2];
-  grid-template-rows: repeat(2, 1fr);
-  -ms-grid-columns: (1fr) [4];
-  grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
 }
 
@@ -173,12 +166,12 @@ ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   color: white;
   padding: 30px;
 }
@@ -192,167 +185,42 @@ ul {
 }
 
 .our-creations article:nth-child(1) {
-  background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      from(rgba(0, 0, 0, 0.5)),
-      to(rgba(255, 0, 0, 0))
-    ),
-    url("../images/desktop/image-deep-earth.jpg");
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(255, 0, 0, 0) 100%
-    ),
-    url("../images/desktop/image-deep-earth.jpg");
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(255, 0, 0, 0))), url("../images/desktop/image-deep-earth.jpg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0) 100%), url("../images/desktop/image-deep-earth.jpg");
 }
 
 .our-creations article:nth-child(2) {
-  background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      from(rgba(0, 0, 0, 0.5)),
-      to(rgba(255, 0, 0, 0))
-    ),
-    url("../images/desktop/image-night-arcade.jpg");
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(255, 0, 0, 0) 100%
-    ),
-    url("../images/desktop/image-night-arcade.jpg");
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(255, 0, 0, 0))), url("../images/desktop/image-night-arcade.jpg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0) 100%), url("../images/desktop/image-night-arcade.jpg");
 }
 
 .our-creations article:nth-child(3) {
-  background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      from(rgba(0, 0, 0, 0.5)),
-      to(rgba(255, 0, 0, 0))
-    ),
-    url("../images/desktop/image-soccer-team.jpg");
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(255, 0, 0, 0) 100%
-    ),
-    url("../images/desktop/image-soccer-team.jpg");
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(255, 0, 0, 0))), url("../images/desktop/image-soccer-team.jpg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0) 100%), url("../images/desktop/image-soccer-team.jpg");
 }
 
 .our-creations article:nth-child(4) {
-  background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      from(rgba(0, 0, 0, 0.5)),
-      to(rgba(255, 0, 0, 0))
-    ),
-    url("../images/desktop/image-grid.jpg");
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(255, 0, 0, 0) 100%
-    ),
-    url("../images/desktop/image-grid.jpg");
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(255, 0, 0, 0))), url("../images/desktop/image-grid.jpg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0) 100%), url("../images/desktop/image-grid.jpg");
 }
 
 .our-creations article:nth-child(5) {
-  background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      from(rgba(0, 0, 0, 0.5)),
-      to(rgba(255, 0, 0, 0))
-    ),
-    url("../images/desktop/image-from-above.jpg");
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(255, 0, 0, 0) 100%
-    ),
-    url("../images/desktop/image-from-above.jpg");
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(255, 0, 0, 0))), url("../images/desktop/image-from-above.jpg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0) 100%), url("../images/desktop/image-from-above.jpg");
 }
 
 .our-creations article:nth-child(6) {
-  background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      from(rgba(0, 0, 0, 0.5)),
-      to(rgba(255, 0, 0, 0))
-    ),
-    url("../images/desktop/image-pocket-borealis.jpg");
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(255, 0, 0, 0) 100%
-    ),
-    url("../images/desktop/image-pocket-borealis.jpg");
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(255, 0, 0, 0))), url("../images/desktop/image-pocket-borealis.jpg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0) 100%), url("../images/desktop/image-pocket-borealis.jpg");
 }
 
 .our-creations article:nth-child(7) {
-  background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      from(rgba(0, 0, 0, 0.5)),
-      to(rgba(255, 0, 0, 0))
-    ),
-    url("../images/desktop/image-curiosity.jpg");
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(255, 0, 0, 0) 100%
-    ),
-    url("../images/desktop/image-curiosity.jpg");
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(255, 0, 0, 0))), url("../images/desktop/image-curiosity.jpg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0) 100%), url("../images/desktop/image-curiosity.jpg");
 }
 
 .our-creations article:nth-child(8) {
-  background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      from(rgba(0, 0, 0, 0.5)),
-      to(rgba(255, 0, 0, 0))
-    ),
-    url("../images/desktop/image-fisheye.jpg");
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(255, 0, 0, 0) 100%
-    ),
-    url("../images/desktop/image-fisheye.jpg");
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(255, 0, 0, 0))), url("../images/desktop/image-fisheye.jpg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0) 100%), url("../images/desktop/image-fisheye.jpg");
 }
 /*# sourceMappingURL=style.css.map */
-footer {
-  background-color: #000;
-  margin-top: 30px;
-  margin: 0;
-}
-footer img {
-  margin-top: 20px;
-  margin-left: 10px;
-}
-.flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-ul {
-  display: flex;
-}
-ul li {
-  margin-top: 30px;
-  margin-right: 20px;
-}
-li a {
-  color: #fff;
-  text-decoration: none;
-}
-footer p {
-  color: #fff;
-  margin-top: 30px;
-}
