@@ -3,16 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
-    <link href="./styles/style.css" rel="stylesheet" />
+    <link href="styles/style.css" rel="stylesheet" />
     <link
+      href="styles/tablet.css"
+      media="screen and (min-width: 768px)"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link
+      href="styles/small-desktop.css"
+      media="screen and (min-width: 992px)"
+      rel="stylesheet"
+    />
+    <link
+      href="styles/large-desktop.css"
+      media="screen and (min-width: 1200px)"
+      rel="stylesheet"
+    />
+
     <title>Frontend Mentor | Loopstudios landing page</title>
   </head>
   <body>
@@ -20,6 +40,12 @@
       <div class="container">
         <header>
           <img src="./images/logo.svg" alt="Loopstudios logo" />
+
+          <img
+            class="toggle-menu"
+            src="images/icon-hamburger.svg"
+            alt="Toggle menu"
+          />
 
           <nav>
             <ul>
@@ -82,27 +108,45 @@
           <h2>Make it fisheye</h2>
         </article>
       </div>
+
+      <div class="button-wrapper">
+        <button>See all</button>
+      </div>
     </section>
+
+    <footer>
+      <div class="container">
+        <div class="nav-and-logo">
+          <img src="./images/logo.svg" alt="Loopstudios logo" />
+
+          <nav>
+            <ul>
+              <li>About</li>
+              <li>Careers</li>
+              <li>Events</li>
+              <li>Products</li>
+              <li>Support</li>
+            </ul>
+          </nav>
+        </div>
+        <div class="social-and-copyright">
+          <ul>
+            <li>
+              <img src="images/icon-facebook.svg" alt="Facebook logo" />
+            </li>
+            <li>
+              <img src="images/icon-twitter.svg" alt="Twitter logo" />
+            </li>
+            <li>
+              <img src="images/icon-pinterest.svg" alt="Pinterest logo" />
+            </li>
+            <li>
+              <img src="images/icon-instagram.svg" alt="Instagram logo" />
+            </li>
+          </ul>
+          <p>© 2021 Loopstudios. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
   </body>
-  <footer class="container">
-    <div class="flex">
-      <img src="./images/logo.svg" alt="logo" />
-      <ul>
-        <li><img src="./images/icon-facebook.svg" alt="Facebook logo" /></li>
-        <li><img src="./images/icon-pinterest.svg" alt="Pinterestlogo" /></li>
-        <li><img src="./images/icon-twitter.svg" alt="Twitter logo" /></li>
-        <li><img src="./images/icon-instagram.svg" alt="Instagram logo" /></li>
-      </ul>
-    </div>
-    <div class="flex right">
-      <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Careers </a></li>
-        <li><a href="#">Events </a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Support </a></li>
-      </ul>
-      <p>© 2021 Loopstudios. All rights reserved.</p>
-    </div>
-  </footer>
 </html>
